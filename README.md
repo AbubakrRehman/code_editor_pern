@@ -19,7 +19,7 @@ The frontend and backend live in **separate repositories**, and are included her
 
 ## 🛠️ Project Setup
 - Clone This Compose Repository
-  - git https://github.com/AbubakrRehman/code_editor_pern.git
+  - git clone https://github.com/AbubakrRehman/code_editor_pern.git
   - cd code_editor_pern
 - Add the Backend and Frontend Code
   - git clone https://github.com/AbubakrRehman/code_editor_backend.git backend
