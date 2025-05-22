@@ -22,8 +22,8 @@ The frontend and backend live in **separate repositories**, and are included her
   - git https://github.com/AbubakrRehman/code_editor_pern.git
   - cd code_editor_pern
 - Add the Backend and Frontend Code
-  - git clone https://github.com/your-org/backend.git backend
-  - git clone https://github.com/your-org/frontend.git frontend
+  - git clone https://github.com/AbubakrRehman/code_editor_backend.git backend
+  - git clone https://github.com/AbubakrRehman/code_editor_frontend.git frontend
 - Running the Project
   - docker compose up --build
 
