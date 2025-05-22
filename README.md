@@ -2,15 +2,14 @@
 This repository contains the `docker-compose.yml` and shared configuration for running the fullstack application — backend and frontend — using Docker and Docker Compose.
         
 The frontend and backend live in **separate repositories**, and are included here as Git submodules or via manual cloning.
-    ----
 
 ## 📁 Project Structure
-    project-root/
-    ├── docker-compose.yml
-    ├── .env # Shared environment variables (optional)
-    ├── backend/ # Cloned or linked backend repo
-    ├── frontend/ # Cloned or linked frontend repo
-    └── README.md
+        project-root/
+        ├── docker-compose.yml
+        ├── .env # Shared environment variables (optional)
+        ├── backend/ # Cloned or linked backend repo
+        ├── frontend/ # Cloned or linked frontend repo
+        └── README.md
 
 ## ✅ Prerequisites
   - Docker: https://www.docker.com/products/docker-desktop
@@ -19,11 +18,20 @@ The frontend and backend live in **separate repositories**, and are included her
 
 ## 🛠️ Project Setup
 - Clone This Compose Repository
-  - git clone https://github.com/AbubakrRehman/code_editor_pern.git
-  - cd code_editor_pern
+    ```bash
+    git clone https://github.com/AbubakrRehman/code_editor_pern.git
+    ```
+     ```bash
+    cd code_editor_pern
+    ```
 - Add the Backend and Frontend Code
-  - git clone https://github.com/AbubakrRehman/code_editor_backend.git backend
-  - git clone https://github.com/AbubakrRehman/code_editor_frontend.git frontend
+    ```bash
+    git clone https://github.com/AbubakrRehman/code_editor_backend.git backend
+    ```
+     ```bash
+    git clone https://github.com/AbubakrRehman/code_editor_frontend.git frontend
+    ```
 - Running the Project
-  - docker compose up --build
-
+    ```bash
+    docker compose up --build
+    ```
