@@ -31,7 +31,15 @@ The frontend and backend live in **separate repositories**, and are included her
      ```bash
     git clone https://github.com/AbubakrRehman/code_editor_frontend.git frontend
     ```
+- Update End of Line Sequence
+  - select *wait-for-it.sh* in VS Code
+  - change End of Line Sequence from CRLF to LF from botton right of VS Code 
+
 - Running the Project
     ```bash
     docker compose up --build
+    ```
+- Closing the Project
+    ```bash
+    docker compose down -v
     ```
