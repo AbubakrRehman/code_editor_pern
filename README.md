@@ -31,6 +31,11 @@ The frontend and backend live in **separate repositories**, and are included her
      ```bash
     git clone https://github.com/AbubakrRehman/code_editor_frontend.git frontend
     ```
+- Environment Setup
+  - Before running the application, create a .env file based on the provided .env.example:
+    ```bash
+    cp ./backend/.env.example ./backend/.env
+    ```
 - Update End of Line Sequence
   - select *wait-for-it.sh* in VS Code
   - change End of Line Sequence from CRLF to LF from botton right of VS Code 
